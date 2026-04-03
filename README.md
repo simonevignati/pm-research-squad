@@ -30,7 +30,7 @@ These are not chatbots. They are opinionated specialists with centuries of combi
 | **Machiavelli** | `/research-squad:value-analysis` | Maps the problem space. Asks whether you're solving the right problem before a single euro is spent on research. Then closes the loop after. |
 | **Galileo** | `/research-squad:research-director` | Turns knowledge gaps into research plans. Challenges weak findings. Synthesizes across sources. |
 | **Oprah** | `/research-squad:interview` | Creates the safety for people to say what they actually think. Mental models, JTBD, unmet needs — all from depth interviews. Everyone opens up. |
-| **Pascal** | `/research-squad:survey` | Quantifies uncertainty before you bet. Behavioral segmentation, WTP, prevalence at scale. Always writes the analysis plan *before* designing the survey. |
+| **Florence Nightingale** | `/research-squad:survey` | Turns raw numbers into decisions that save lives — or at least products. Invented data visualization. Behavioral segmentation, WTP, prevalence at scale. Always writes the analysis plan *before* designing the survey. |
 | **Gutenberg** | `/research-squad:desk-research` | Synthesizes what's already public. Market sizing, regulation, analogous markets. Fastest agent in the squad. |
 | **Sun Tzu** | `/research-squad:competitive` | Thinks 10 moves ahead. Teardowns, feature gaps, positioning white space. Never satisfied with surface-level analysis. |
 | **Kasparov** | `/research-squad:pricing` | Calculates every move. Finds the price the market will bear, the floor your costs set, and the gap between them. Sacrifice a margin point to win the position. |
@@ -95,7 +95,7 @@ INPUT (strategy doc, brief, or problem statement)
 │  ◼ Gate 2 — PM approves each brief before dispatch
 │
 ├─ STEP 3: Specialist agents (parallel)
-│  Oprah · Pascal · Gutenberg · Sun Tzu · Kasparov · Vitruvius · Archimedes
+│  Oprah · Florence Nightingale · Gutenberg · Sun Tzu · Kasparov · Vitruvius · Archimedes
 │  Lightweight PM check after each finding
 │  ◼ Gate 3 — PM reviews evidence base before synthesis
 │
