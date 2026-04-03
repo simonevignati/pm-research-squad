@@ -1,0 +1,41 @@
+name: pm-research-squad
+version: 1.0.0
+description: >
+  A hierarchical research system for product managers. Runs a full research pipeline
+  from problem framing to a validated Value Analysis Document, with four mandatory
+  PM approval gates. Includes specialists for qualitative interviews, surveys,
+  competitive intelligence, pricing, desk research, usability testing, and internal
+  data analysis. Framework-agnostic — exports to Claude Code, OpenAI Agents, or
+  raw system prompts.
+
+soul: SOUL.md
+
+skills:
+  - skills/orchestrate
+  - skills/research-director
+  - skills/value-analysis
+  - skills/interview
+  - skills/survey
+  - skills/desk-research
+  - skills/competitive
+  - skills/pricing
+  - skills/usability
+  - skills/internal-data
+
+knowledge:
+  - knowledge/pipeline.md
+  - knowledge/output-format.md
+  - knowledge/examples/example-interview-snapshot.md
+  - knowledge/examples/example-research-plan.md
+
+templates:
+  - templates/01-learning-agenda.md
+  - templates/02-research-plan.md
+  - templates/03-agent-brief.md
+  - templates/04-findings.md
+  - templates/05-research-summary.md
+  - templates/06-value-analysis.md
+
+exports:
+  system-prompt: skills/orchestrate/SKILL.md
+  claude-code-plugin: manifest.json
