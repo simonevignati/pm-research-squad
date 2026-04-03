@@ -32,8 +32,8 @@ These are not chatbots. They are opinionated specialists with centuries of combi
 | **Stanislavski** | `/research-squad:interview` | Gets inside your users' heads. Mental models, JTBD, unmet needs — all from depth interviews. Method matters to him. |
 | **Fibonacci** | `/research-squad:survey` | Measures what actually happens, not what people say they do. Behavioral segmentation. WTP. Always writes the analysis plan *before* designing the survey. |
 | **Gutenberg** | `/research-squad:desk-research` | Synthesizes what's already public. Market sizing, regulation, analogous markets. Fastest agent in the squad. |
-| **Kasparov** | `/research-squad:competitive` | Thinks 10 moves ahead. Teardowns, feature gaps, positioning white space. Never satisfied with surface-level analysis. |
-| **Medici** | `/research-squad:pricing` | Finds the price the market will bear, the floor your costs set, and the gap between them. Patron of sustainable margins. |
+| **Sun Tzu** | `/research-squad:competitive` | Thinks 10 moves ahead. Teardowns, feature gaps, positioning white space. Never satisfied with surface-level analysis. |
+| **Kasparov** | `/research-squad:pricing` | Calculates every move. Finds the price the market will bear, the floor your costs set, and the gap between them. Sacrifice a margin point to win the position. |
 | **Vitruvius** | `/research-squad:usability` | Watches people try to use your product and notes exactly where they fail. No opinions. Only observations and severity ratings. |
 | **Archimedes** | `/research-squad:internal-data` | Finds the lever in your existing data. Usage patterns, funnels, feature adoption, churn signals — all from what you already have. |
 
@@ -95,7 +95,7 @@ INPUT (strategy doc, brief, or problem statement)
 │  ◼ Gate 2 — PM approves each brief before dispatch
 │
 ├─ STEP 3: Specialist agents (parallel)
-│  Stanislavski · Fibonacci · Gutenberg · Kasparov · Medici · Vitruvius · Archimedes
+│  Stanislavski · Fibonacci · Gutenberg · Sun Tzu · Kasparov · Vitruvius · Archimedes
 │  Lightweight PM check after each finding
 │  ◼ Gate 3 — PM reviews evidence base before synthesis
 │
