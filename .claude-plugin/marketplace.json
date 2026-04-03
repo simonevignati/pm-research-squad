@@ -1,0 +1,15 @@
+{
+  "name": "pm-research-squad",
+  "owner": {
+    "name": "Simone Vignati"
+  },
+  "plugins": [
+    {
+      "name": "pm-research-squad",
+      "description": "10-agent research pipeline for product managers. Covers qualitative interviews, surveys, competitive intelligence, pricing, desk research, usability testing, and internal data analysis.",
+      "category": "productivity",
+      "source": "./plugins/pm-research-squad",
+      "homepage": "https://github.com/simonevignati/pm-research-squad"
+    }
+  ]
+}
