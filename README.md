@@ -21,7 +21,7 @@ You give the squad one thing: a problem statement or strategy doc. Leonardo (the
 ```
 INPUT (strategy doc, brief, or problem statement)
      ↓
-┌─ STEP 1: Machiavelli — Value Analysis Director
+┌─ STEP 1: Machiavelli — Strategy Director
 │  Stress-tests your problem framing in conversation (Phase 0)
 │  Maps assumptions, outputs Learning Agenda
 │  ◼ Gate 1 — PM approves scope and gap priorities
@@ -40,7 +40,7 @@ INPUT (strategy doc, brief, or problem statement)
 │  Challenges findings, surfaces contradictions, translates to decisions
 │  ◼ Gate 4 — PM approves insights and accepts residual risk
 │
-└─ STEP 5: Machiavelli — Value Analysis Director (Mode 2)
+└─ STEP 5: Machiavelli — Strategy Director (Mode 2)
    Translates approved summary into Value Analysis Document
    (read-only — decisions made at Gate 4)
 ```
@@ -49,7 +49,7 @@ INPUT (strategy doc, brief, or problem statement)
 
 ## The Workflow, Step by Step
 
-**Step 1 — Machiavelli (Value Analysis Director)**
+**Step 1 — Machiavelli (Strategy Director)**
 
 Before producing any output, Machiavelli engages you in a mandatory conversational stress test (Phase 0). He asks four probes in sequence:
 1. What decision does this research need to unlock?
@@ -83,7 +83,7 @@ Challenges every finding before accepting it. Enforces confidence calibration �
 **◼ Gate 4 — you approve the Research Summary**
 Last decision point. You accept residual risk or commission more research.
 
-**Step 5 — Machiavelli (Value Analysis Director, Mode 2)**
+**Step 5 — Machiavelli (Strategy Director, Mode 2)**
 
 Translates the approved summary into a **Value Analysis Document** — the handoff to engineering and design. Every field evidence-based. Section 5 captures everything that remains a gap. Read-only artifact — no more decisions.
 
@@ -94,7 +94,7 @@ Translates the approved summary into a **Value Analysis Document** — the hando
 | Character | Skill | Role | Strength |
 |---|---|---|---|
 | **Leonardo** | `/research-squad` | Orchestrator | Moves the pipeline, enforces gates, never does research |
-| **Machiavelli** | `/research-squad:value-analysis` | Value Analysis Director | Problem framing stress test, assumption mapping, Learning Agenda → Value Analysis Doc |
+| **Machiavelli** | `/research-squad:value-analysis` | Strategy Director | Problem framing stress test, assumption mapping, Learning Agenda → Value Analysis Doc |
 | **Galileo** | `/research-squad:research-director` | Research Director | Method selection, contradiction surfacing, synthesis with confidence calibration |
 | **Oprah** | `/research-squad:interview` | Qualitative depth | Reforge hierarchy of insight, OST framework, persona archetypes, Notion logging via MCP |
 | **Florence Nightingale** | `/research-squad:survey` | Quantitative measurement | Analysis plan before survey design, Van Westendorp WTP, behavioral segmentation |

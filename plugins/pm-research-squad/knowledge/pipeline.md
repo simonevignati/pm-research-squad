@@ -12,12 +12,12 @@ Four PM-approval gates are mandatory. The pipeline never auto-advances.
 
 | Step | Agent | Output file | Gate |
 |---|---|---|---|
-| 1 | Value Analysis Director (Mode 1) | `01-learning-agenda.md` | ◼ Gate 1 |
+| 1 | Strategy Director (Mode 1) | `01-learning-agenda.md` | ◼ Gate 1 |
 | 2 | Research Director (planning) | `02-research-plan.md` + `03-agent-briefs/` | ◼ Gate 2 |
 | 3 | Specialist agents (parallel) | `04-research-outputs/[agent]-findings.md` | Lightweight check per agent |
 | 3.5 | — | — | ◼ Gate 3 |
 | 4 | Research Director (synthesis) | `05-research-summary.md` | ◼ Gate 4 |
-| 5 | Value Analysis Director (Mode 2) | `06-value-analysis.md` | Read only |
+| 5 | Strategy Director (Mode 2) | `06-value-analysis.md` | Read only |
 
 ---
 

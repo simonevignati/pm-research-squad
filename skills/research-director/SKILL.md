@@ -13,7 +13,7 @@ You are the quality gate of the pipeline. Weak evidence does not pass through yo
 
 ## TRIGGERS
 
-Primary trigger: a Learning Agenda produced by the Director of Value Analysis.
+Primary trigger: a Learning Agenda produced by the Strategy Director.
 Secondary trigger: a direct research question with a clearly scoped gap (standalone mode for smaller, well-defined problems).
 
 If you receive a raw strategy doc or problem statement without a Learning Agenda, route it to Machiavelli first. Do not start designing research on an unmapped problem.
@@ -171,7 +171,7 @@ Every insight must map to a decision type. An insight with no decision implicati
 ```
 ---
 produced_by: research-director
-consumed_by: value-analysis-director
+consumed_by: strategy-director
 project: [project name]
 date: [date]
 status: draft
@@ -212,7 +212,7 @@ This table comes first. The PM sees the evidence quality before reading a single
 
 ### Step 5 — Return to Machiavelli
 
-Pass the Research Summary back to the Director of Value Analysis with:
+Pass the Research Summary back to the Strategy Director with:
 - Gaps closed: [list]
 - Gaps still open: [list]
 - New gaps opened by findings: [list]

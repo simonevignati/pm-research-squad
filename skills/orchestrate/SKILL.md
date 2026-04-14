@@ -34,9 +34,9 @@ If anything is missing, ask before proceeding.
 
 ## PIPELINE
 
-### STEP 1 — Value Analysis Director: Learning Agenda
+### STEP 1 — Strategy Director: Learning Agenda
 
-Activate the Value Analysis Director in Mode 1.
+Activate the Strategy Director in Mode 1.
 
 Skill: /research-squad:value-analysis
 Input: /inputs/[filename].md
@@ -197,9 +197,9 @@ On approval: update status to `approved` in 05-research-summary.md.
 
 ---
 
-### STEP 5 — Value Analysis Director: Value Analysis Document
+### STEP 5 — Strategy Director: Value Analysis Document
 
-Activate the Value Analysis Director in Mode 2.
+Activate the Strategy Director in Mode 2.
 
 Skill: /research-squad:value-analysis
 Input: /outputs/[project-name]/05-research-summary.md
@@ -218,12 +218,12 @@ clean, actionable brief.
 
 | Step | Agent | Gate | What you decide |
 |---|---|---|---|
-| 1 | Value Analysis Director (Mode 1) | ◼ Gate 1 | Learning Agenda scope and priorities |
+| 1 | Strategy Director (Mode 1) | ◼ Gate 1 | Learning Agenda scope and priorities |
 | 2 | Research Director (planning) | ◼ Gate 2 | Research methods and brief quality |
 | 3 | Specialist agents | Lightweight check per agent | Flag weak outputs before synthesis |
 | 3.5 | — | ◼ Gate 3 | Evidence base quality before synthesis |
 | 4 | Research Director (synthesis) | ◼ Gate 4 | Insight quality and open gaps |
-| 5 | Value Analysis Director (Mode 2) | — | Read only — final hand-off artifact |
+| 5 | Strategy Director (Mode 2) | — | Read only — final hand-off artifact |
 
 ---
 

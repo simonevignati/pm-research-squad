@@ -1,5 +1,5 @@
 ---
-produced_by: value-analysis-director
+produced_by: strategy-director
 consumed_by: research-director
 project: [project name]
 date: [YYYY-MM-DD]

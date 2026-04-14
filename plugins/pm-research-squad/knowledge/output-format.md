@@ -33,7 +33,7 @@ Use these exact strings in `produced_by` and `consumed_by`:
 |---|---|
 | Orchestrator | `research-squad-orchestrator` |
 | Research Director | `research-director` |
-| Value Analysis Director | `value-analysis-director` |
+| Strategy Director | `strategy-director` |
 | Interview Agent | `interview-agent` |
 | Survey Agent | `survey-agent` |
 | Desk Research Agent | `desk-research-agent` |
@@ -48,7 +48,7 @@ Use these exact strings in `produced_by` and `consumed_by`:
 
 ```
 /outputs/[project-name]/
-  01-learning-agenda.md                    ← Value Analysis Director → Research Director
+  01-learning-agenda.md                    ← Strategy Director → Research Director
   02-research-plan.md                      ← Research Director → Specialists
   03-agent-briefs/
     interview-brief.md                     ← Research Director → Interview Agent
@@ -58,8 +58,8 @@ Use these exact strings in `produced_by` and `consumed_by`:
     interview-findings.md                  ← Interview Agent → Research Director
     survey-findings.md                     ← Survey Agent → Research Director
     [agent]-findings.md                    ← [Agent] → Research Director
-  05-research-summary.md                   ← Research Director → Value Analysis Director
-  06-value-analysis.md                     ← Value Analysis Director → Engineering/Design
+  05-research-summary.md                   ← Research Director → Strategy Director
+  06-value-analysis.md                     ← Strategy Director → Engineering/Design
 ```
 
 The numeric prefix enforces sequence. Files at the same prefix level can be

@@ -1,6 +1,6 @@
 ---
 produced_by: research-director
-consumed_by: value-analysis-director
+consumed_by: strategy-director
 project: [project name]
 date: [YYYY-MM-DD]
 status: draft
@@ -65,7 +65,7 @@ Stakeholder alignment / Further research
 
 ---
 
-## Flags for Value Analysis Director
+## Flags for Strategy Director
 
 - **Gaps closed:** [list]
 - **Gaps still open:** [list]
