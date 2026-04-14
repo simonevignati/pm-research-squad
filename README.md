@@ -9,7 +9,7 @@ Built on the [gitagent](https://github.com/open-gitagent/gitagent/) standard. Di
 ## Install
 
 ```bash
-claude plugin marketplace add https://github.com/svignati/pm-research-squad
+claude plugin marketplace add https://github.com/simonevignati/pm-research-squad
 ```
 
 ---
