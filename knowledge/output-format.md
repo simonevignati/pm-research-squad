@@ -59,7 +59,7 @@ Use these exact strings in `produced_by` and `consumed_by`:
     survey-findings.md                     ← Survey Agent → Research Director
     [agent]-findings.md                    ← [Agent] → Research Director
   05-research-summary.md                   ← Research Director → Strategy Director
-  06-value-analysis.md                     ← Strategy Director → Engineering/Design
+  06-product-brief.md                     ← Strategy Director → Engineering/Design
 ```
 
 The numeric prefix enforces sequence. Files at the same prefix level can be

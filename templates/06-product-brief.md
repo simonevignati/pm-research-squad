@@ -8,7 +8,7 @@ research_reference: [05-research-summary.md and date]
 open_gaps: [list any fields that remain unvalidated]
 ---
 
-# Value Analysis Document
+# Product Brief
 **Project:** [project name]
 **Date:** [date]
 **Research Summary reference:** [File and date]

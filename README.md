@@ -1,6 +1,6 @@
 # pm-research-squad
 
-An 11-agent research system for product managers. Runs a full research pipeline from a problem statement to a validated Value Analysis Document — with four mandatory PM approval gates at every critical decision point.
+An 11-agent research system for product managers. Runs a full research pipeline from a problem statement to a validated Product Brief — with four mandatory PM approval gates at every critical decision point.
 
 Built on the [gitagent](https://github.com/open-gitagent/gitagent/) standard. Distributable as a Claude Code plugin.
 
@@ -41,7 +41,7 @@ INPUT (strategy doc, brief, or problem statement)
 │  ◼ Gate 4 — PM approves insights and accepts residual risk
 │
 └─ STEP 5: Machiavelli — Strategy Director (Mode 2)
-   Translates approved summary into Value Analysis Document
+   Translates approved summary into Product Brief
    (read-only — decisions made at Gate 4)
 ```
 
@@ -85,7 +85,7 @@ Last decision point. You accept residual risk or commission more research.
 
 **Step 5 — Machiavelli (Strategy Director, Mode 2)**
 
-Translates the approved summary into a **Value Analysis Document** — the handoff to engineering and design. Every field evidence-based. Section 5 captures everything that remains a gap. Read-only artifact — no more decisions.
+Translates the approved summary into a **Product Brief** — the handoff to engineering and design. Every field evidence-based. Section 5 captures everything that remains a gap. Read-only artifact — no more decisions.
 
 ---
 
@@ -94,7 +94,7 @@ Translates the approved summary into a **Value Analysis Document** — the hando
 | Character | Skill | Role | Strength |
 |---|---|---|---|
 | **Leonardo** | `/research-squad` | Orchestrator | Moves the pipeline, enforces gates, never does research |
-| **Machiavelli** | `/research-squad:value-analysis` | Strategy Director | Problem framing stress test, assumption mapping, Learning Agenda → Value Analysis Doc |
+| **Machiavelli** | `/research-squad:strategy-director` | Strategy Director | Problem framing stress test, assumption mapping, Learning Agenda → Product Brief |
 | **Galileo** | `/research-squad:research-director` | Research Director | Method selection, contradiction surfacing, synthesis with confidence calibration |
 | **Oprah** | `/research-squad:interview` | Qualitative depth | Reforge hierarchy of insight, OST framework, persona archetypes, Notion logging via MCP |
 | **Florence Nightingale** | `/research-squad:survey` | Quantitative measurement | Analysis plan before survey design, Van Westendorp WTP, behavioral segmentation |
@@ -162,7 +162,7 @@ Run the Research Squad on project [name]. Input is in /inputs/[filename].md.
 Each agent runs standalone without the full pipeline:
 
 ```
-/research-squad:value-analysis
+/research-squad:strategy-director
 [paste strategy doc or problem statement]
 ```
 
@@ -205,7 +205,7 @@ Time window: [days back, or all time]
   04-research-outputs/
     [agent]-findings.md
   05-research-summary.md
-  06-value-analysis.md
+  06-product-brief.md
 ```
 
 Every output file begins with a standard handoff header:

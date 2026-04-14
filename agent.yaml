@@ -2,7 +2,7 @@ name: pm-research-squad
 version: 1.0.0
 description: >
   A hierarchical research system for product managers. Runs a full research pipeline
-  from problem framing to a validated Value Analysis Document, with four mandatory
+  from problem framing to a validated Product Brief, with four mandatory
   PM approval gates. Includes specialists for qualitative interviews, surveys,
   competitive intelligence, pricing, desk research, usability testing, and internal
   data analysis. Framework-agnostic — exports to Claude Code, OpenAI Agents, or
@@ -13,7 +13,7 @@ soul: SOUL.md
 skills:
   - skills/orchestrate
   - skills/research-director
-  - skills/value-analysis
+  - skills/strategy-director
   - skills/interview
   - skills/survey
   - skills/desk-research
@@ -21,6 +21,7 @@ skills:
   - skills/pricing
   - skills/usability
   - skills/internal-data
+  - skills/voc
 
 knowledge:
   - knowledge/pipeline.md
@@ -34,7 +35,7 @@ templates:
   - templates/03-agent-brief.md
   - templates/04-findings.md
   - templates/05-research-summary.md
-  - templates/06-value-analysis.md
+  - templates/06-product-brief.md
 
 exports:
   system-prompt: skills/orchestrate/SKILL.md

@@ -1,17 +1,18 @@
 {
   "name": "pm-research-squad",
   "version": "1.0.0",
-  "description": "A 10-agent research system for product managers. Covers the full research pipeline from problem framing to Value Analysis Document, with 4 mandatory PM approval gates. Includes specialists for qualitative interviews, surveys, competitive intelligence, pricing, desk research, usability testing, and internal data analysis.",
+  "description": "A 10-agent research system for product managers. Covers the full research pipeline from problem framing to Product Brief, with 4 mandatory PM approval gates. Includes specialists for qualitative interviews, surveys, competitive intelligence, pricing, desk research, usability testing, and internal data analysis.",
   "skills": [
     "skills/orchestrate",
     "skills/research-director",
-    "skills/value-analysis",
+    "skills/strategy-director",
     "skills/interview",
     "skills/survey",
     "skills/desk-research",
     "skills/competitive",
     "skills/pricing",
     "skills/usability",
-    "skills/internal-data"
+    "skills/internal-data",
+    "skills/voc"
   ]
 }

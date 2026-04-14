@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Research Squad runs a 5-step pipeline from a raw input (strategy doc, problem statement, or brief) to a validated Value Analysis Document ready for engineering and design.
+The Research Squad runs a 5-step pipeline from a raw input (strategy doc, problem statement, or brief) to a validated Product Brief ready for engineering and design.
 
 Four PM-approval gates are mandatory. The pipeline never auto-advances.
 
@@ -17,7 +17,7 @@ Four PM-approval gates are mandatory. The pipeline never auto-advances.
 | 3 | Specialist agents (parallel) | `04-research-outputs/[agent]-findings.md` | Lightweight check per agent |
 | 3.5 | — | — | ◼ Gate 3 |
 | 4 | Research Director (synthesis) | `05-research-summary.md` | ◼ Gate 4 |
-| 5 | Strategy Director (Mode 2) | `06-value-analysis.md` | Read only |
+| 5 | Strategy Director (Mode 2) | `06-product-brief.md` | Read only |
 
 ---
 
@@ -42,7 +42,7 @@ Four PM-approval gates are mandatory. The pipeline never auto-advances.
 ### Gate 4 — Research Summary
 **You decide:** Insight quality and which open gaps to accept as residual risk.
 **The orchestrator shows you:** Full Research Summary + its critique (overstated confidence, weak evidence, recommendations not grounded in findings).
-**After approval, the Value Analysis Document is produced. No more decisions.**
+**After approval, the Product Brief is produced. No more decisions.**
 
 ---
 
@@ -57,7 +57,7 @@ Four PM-approval gates are mandatory. The pipeline never auto-advances.
   04-research-outputs/
     [agent]-findings.md
   05-research-summary.md
-  06-value-analysis.md
+  06-product-brief.md
 ```
 
 ---
@@ -74,7 +74,7 @@ Four PM-approval gates are mandatory. The pipeline never auto-advances.
 | `/research-squad:usability` | Task completion, friction mapping, UI comprehension |
 | `/research-squad:internal-data` | Usage patterns, funnel, feature adoption, churn signals |
 | `/research-squad:research-director` | Research planning, synthesis (activated by orchestrator) |
-| `/research-squad:value-analysis` | Learning Agenda, Value Analysis Document (activated by orchestrator) |
+| `/research-squad:strategy-director` | Learning Agenda, Product Brief (activated by orchestrator) |
 
 ---
 
